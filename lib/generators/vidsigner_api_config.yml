@@ -1,0 +1,8 @@
+development:
+  base_uri: "https://pre-vidsignercloud.validatedid.com/api"
+  username: "youruser"
+  password: "yourpassword"
+production:
+  base_uri: "https://vidsignercloud.validatedid.com/api"
+  username: "youruser"
+  password: "yourpassword"
