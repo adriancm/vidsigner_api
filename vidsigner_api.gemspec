@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = VidsignerApi::VERSION
   spec.authors       = ["Adrian Cepillo"]
   spec.email         = ["adrian.cepillo@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Ruby gem for VidSigner API service}
+  spec.description   = %q{Ruby gem for VidSigner API service}
+  spec.homepage      = "http://github.com/adriancm/vidsigner_api"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
