@@ -4,7 +4,7 @@ module VidsignerApi
 
   if ENV[:vidsigner_path] and defined? Rails != "constant"
     config_path = "#{ENV[:vidsigner_path]}/config/vidsigner_api_config.yml"
-    DATA =  File.exists?(config_path) ? YAML.load_file(config_path) : raise
+    DATA =  File.exists?(config_path) ? YAML.load_file(config_path) : raise "Config file doesn't exist"
   end
 
   def devices(env = nil)
